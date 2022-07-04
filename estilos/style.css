@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,500&family=Roboto:wght@100;300;500;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+/* SECTION HEADER */
+h1{
+    display: inline-block;
+    
+}
+
+
+
+.navbar{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-list{
+    list-style-type: none;
+    
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: rgb(211, 132, 62); 
+}
+
+.primary-icon{
+    height: 40px;
+}
+
+.menu{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+
+/* SECTION MAIN */
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.562)  , rgba(30, 30, 30, 0.562) ), url(../multimedia/img4.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows: repeat(8 , 1fr);
+    color: white;
+}
+
+.hero .info-content{
+    grid-column: 4 / 8;
+    grid-row: 3 / 7
+}
+
+.hero h2{
+    font-size: 5em;
+    color: rgb(211, 132, 62);
+}
+
+.hero .btn{
+    font-size: 1em ;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(211, 132, 62);
+    border-radius: 30px;
+    margin-top: 15px;
+
+}
+.hero .btn:hover{
+    background-color:rgb(211, 132, 62) ;
+    color: #222;
+}
+
+
+/* SECTION FOOTER */
+
+footer{
+    background-color: #222;
+}
+footer .titulo-section{
+    text-align: center;
+    color: white;
+
+
+}
+
+footer .copy{
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+
+}
+footer .redes-sociales{
+    text-align: center;
+}
+
+footer .redes-sociales img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+   
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer .contenedor{
+    padding-top: 10px;
+}
+
+/* PAGINA CONTACTO */
+
+.wrapper{
+    grid-column: 2 / 6;
+    grid-row: 1 / 4;      
+}
+
+.form-area{
+    background:rgba(0, 0, 0, 0.562) ;
+    padding: 30px;
+    border-radius: 25px;    
+}
+
+.details-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.details-area input{
+    width: 100%;
+    border-radius: 20px;   
+}
+
+.details-area label{
+    padding: 10px;
+}
+
+.details-area button{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+    
+}
+
+.msg-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.msg-area textarea{
+    border-radius: 20px;
+    resize: none;
+}
+
+.msg-area label{
+    padding-bottom: 10px;
+    
+}
+
+.details-area button:hover{
+    background-color: rgb(211, 132, 62);
+}
+
+.comentario-contacto{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.map{
+    display: grid;
+    grid-column: 7 / 10;
+    grid-row: 3 / 8;
+  }
+
+  .map .titulo-mapa{
+    font-size: 20px;
+    color: white;
+  }
+
+   /*  PAGINAS NOSOTROS */
+
+.contenedor-nosotros{
+    grid-column: 6 / 10;
+    grid-row: 2 / 7;
+}
+
+.container-slider{
+   
+    margin: auto;
+    background:rgba(0, 0, 0, 0.562);
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      
+      transition: opacity .5s;
+  }
+  
+  ul.slider li img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  
+  .menu-slide{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu-slide li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu-slide li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+  }
+  
+  .menu-slide li a:hover{
+    background-color: rgb(223, 159, 64);
+  
+  }
+
+  .hero .info-nosotros{
+    grid-row: 2 / 6 ;
+    grid-column: 2 / 6 ;
+  }
+
+  .hero .btn-nosotros{
+    display: none;
+  }
+
+
+
+  /* PAGINA TIENDA */
+.hero2{
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+}
+
+
+.container2-card{
+    height: 350px;
+    width: 200px;
+    box-shadow: 5px 5px 20px black;
+    background: rgba(0, 0, 0, 0.562); 
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+    
+}
+
+.container2-card .intro h2{
+    font-size: 20px;
+
+}
+
+.container-card{
+    margin: 20px; 
+    grid-row: 2 / 4; 
+    
+}
+
+.container-card img{
+    height: 150px;
+    width: 200px;
+}
+
+.card{
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.intro{
+    height: 100px;
+    width: 160px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.intro p{
+    font-size: 15px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+.precio{
+    padding: 10px; 
+  
+}
+
+.card .precio{
+    font-size: 20px;
+}
+
+.container2-card .card1{
+    margin-left: 100px;
+}
+
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+@media all and (max-width: 480px) {
+    /*  PAGINA INICIO */
+    .navbar{
+        flex-direction: column;
+        position: relative;
+
+    }
+   
+
+    .menu{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .nav-list{
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .nav-list .list-item{
+        display: block;
+        padding: 10px;
+        border-top: 1px solid white;
+    }
+
+    .primary-icon{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .active{
+        display: block;
+    }
+    
+    h1{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero{
+        background: cover   ;
+    }
+
+    .hero .info-content{
+        grid-column: 2 / 4;
+        grid-row: 2 / 8
+
+    }
+
+    .hero .info-content {
+        grid-column: 2 / 3;
+        grid-row: 1 / 5;
+        font-size: 15px;
+        text-align: center;
+        padding: 40px;
+        
+
+    }
+
+    /* PAGINA CONTACTO */
+    
+
+    .hero .wrapper{
+        grid-column: 2 / 10;
+        grid-row: 1 /5 ;
+        
+    }
+
+    label{
+        font-size: 15px;
+    }
+    
+    .hero .form-area{
+        grid-row: 1 / 10;
+    }
+
+    .comentario-contacto p{
+        margin-top: 20px;
+
+    }
+
+    .map{
+        display: none;
+    }
+
+   .form-area{
+    padding-bottom: 0px;
+   }
+
+   .details-area button{
+    margin-bottom: 10px;
+
+   }
+   /* PAGINA NOSOTROS */
+
+   .hero .info-nosotros{
+    grid-column: 2 / 10 ;
+    grid-row: 2 / 5  ;
+    font-size: 5px;
+} 
+.hero .info-nosotros h3{
+    font-size: 10px;
+}
+.hero .info-nosotros p{
+    font-size: 10px;
+
+}
+
+.hero .container-slider{
+    align-items: center;
+
+}
+.container-slider{
+   
+    margin: auto;
+    background:rgba(0, 0, 0, 0.562);
+    width: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    
+  }
+
+  .contenedor-main{
+    grid-column: 2 / 4;
+
+  }
+
+  /*  PAGINA TIENDA */
+
+  .hero2{
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows: repeat(8 , 1fr);
+
+  }
+
+ 
+
+  }
+ 
+
+}
+
+
+
+
+
+
+
+

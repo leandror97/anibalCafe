@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anibal Coffeshop</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/mediaQueries.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar"
+    >
+            <div class="container-icon">
+                <a href="../index.html"><img src="../multimedia/logo.png" alt="logo" class="primary-icon"></a>
+                <h1>Anibal</h1>
+            </div>
+
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="list-item">
+                    <a href="tienda.html">Tienda</a>
+                </li>
+                <li class="list-item">
+                    <a href="nosotros.html" >Nosotros</a>
+                </li>
+                <li class="list-item">
+                    <a href="contactos.html" >Contacto</a>
+                </li>
+            </ul>
+
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+
+            </nav>
+        </header>
+
+        <main class="hero">
+
+            <article class="info-nosotros">
+                <h3>Coffeshop</h3>
+                <h2>Anibal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo laudantium adipisci magni corrupti accusantium at omnis impedit nam sequi necessitatibus consequatur rerum doloremque, quasi reprehenderit! Sapiente soluta fugiat odit.</p>
+                <a href="paginas/nosotros.html"><button class="btn-nosotros">Leer más</button></a>
+            </article>
+
+            <div class="contenedor-nosotros">
+                <div class="contenedor-main">
+                    <div class="container-slider">
+      
+                        <ul class="slider">
+                          <li id="slide1">
+                            <img src="../multimedia/gal1.jpg"/>
+                          </li>
+                          <li id="slide2">
+                            <img src="../multimedia/gal2.jpg"/>
+                          </li>
+                          <li id="slide3">
+                            <img src="../multimedia/gal3.jpg"/>
+                          </li>
+                          <li id="slide4">
+                            <img src="../multimedia/gal4.jpg">
+                          </li>
+                          
+                        </ul>
+                        
+                        <ul class="menu-slide">
+                          <li>
+                            <a href="#slide1">1</a>
+                          </li>
+                          <li>
+                            <a href="#slide2">2</a>
+                          </li>
+                           <li>
+                            <a href="#slide3">3</a>
+                          </li>
+                          <li>
+                            <a href="#slide4">4</a>
+                          </li>
+                          
+                        </ul>
+                        
+                      </div>
+                
+            </div>
+
+
+        </main>
+
+        <footer>
+            <div class="contenedor">
+                <h2 class="titulo-section">Siguenos en nuestras redes</h2>
+            </div>
+    
+            <div class="redes-sociales">
+    
+                <img src="../multimedia/facebook.png" alt="Logo facebook">
+                <img src="../multimedia/instagram.png" alt="Logo instragram" >
+                <img src="../multimedia/whatsapp.png" alt="Logo whatsapp" > 
+    
+            </div>
+    
+            <div class="contenedor">
+                <p class="copy"> © 2022 Leandro Rojas / Todos los derechos reservados</p>
+            </div>
+        </footer>
+            
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+
+        })
+
+    </script>
+
+
+ 
+
+
+
+
+    
+</body>
+</html>

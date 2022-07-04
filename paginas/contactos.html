@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anibal Coffeshop</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/mediaQueries.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar"
+    >
+            <div class="container-icon">
+                <a href="../index.html"><img src="../multimedia/logo.png" alt="logo" class="primary-icon"></a>
+                <h1>Anibal</h1>
+            </div>
+
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="list-item">
+                    <a href="tienda.html">Tienda</a>
+                </li>
+                <li class="list-item">
+                    <a href="nosotros.html" >Nosotros</a>
+                </li>
+                <li class="list-item">
+                    <a href="contactos.html" >Contacto</a>
+                </li>
+            </ul>
+
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+
+            </nav>
+        </header>
+
+        <main class="hero">
+
+            <div class="wrapper">
+            
+                <div class="comentario-contacto">
+                    <p>Deja tu mensaje para contactarnos</p>
+                </div>
+
+                <form action="" class="form-area">    
+
+                    <div class="details-area">
+                        <label for="name">Primer nombre</label>
+                        <input type="text" id="name" >
+
+                        <label for="lname">Segundo nombre</label>
+                        <input type="text" id="lname">
+
+                        <label for="email">Correo</label>
+                        <input type="email" id="email">
+
+                        <div class="msg-area">
+                            <label for="msg">Comentarios</label>
+                            <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                    </div>
+            
+                </form>
+                
+            </div>
+
+            <div class="map">
+                <h2 class="titulo-mapa">Nos ubicamos en:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.704201785292!2d4.897774715503538!3d52.37578337978715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b9b63129bf%3A0xa9232f39eaf9eec9!2sCafe%20De%20Regent%20van%20Amsterdam!5e0!3m2!1ses!2suy!4v1656454326174!5m2!1ses!2suy" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+        </main>
+
+        <footer>
+
+            <div class="contenedor">
+                <h2 class="titulo-section">Siguenos en nuestras redes</h2>
+            </div>
+    
+            <div class="redes-sociales">
+    
+                <img src="../multimedia/facebook.png" alt="Logo facebook">
+                <img src="../multimedia/instagram.png" alt="Logo instragram" >
+                <img src="../multimedia/whatsapp.png" alt="Logo whatsapp" > 
+    
+            </div>
+    
+            <div class="contenedor">
+                <p class="copy"> © 2022 Leandro Rojas / Todos los derechos reservados</p>
+            </div>
+
+        </footer>
+            
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+
+        })
+
+    </script>
+
+    
+
+
+
+
+    
+</body>
+</html>

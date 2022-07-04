@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anibal Coffeshop</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaQueries.css">
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- SECTION HEADER -->
+
+    <header>
+        <nav class="navbar"
+    >
+            <div class="container-icon">
+                <a href="#"><img src="multimedia/logo.png" alt="logo" class="primary-icon"></a>
+                <h1>Anibal</h1>
+            </div>
+
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li class="list-item">
+                    <a href="paginas/tienda.html">Tienda</a>
+                </li>
+                <li class="list-item">
+                    <a href="paginas/nosotros.html" >Nosotros</a>
+                </li>
+                <li class="list-item">
+                    <a href="paginas/contactos.html" >Contacto</a>
+                </li>
+            </ul>
+
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+
+            </nav>
+        </header>
+            
+    
+
+    <!-- SECTION MAIN -->
+
+    <main class="hero">
+        <article class="info-content">
+            <h3>Coffeshop</h3>
+            <h2>Anibal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo laudantium adipisci magni corrupti accusantium at omnis impedit nam sequi necessitatibus consequatur rerum doloremque, quasi reprehenderit! Sapiente soluta fugiat odit.</p>
+            <a href="paginas/nosotros.html"><button class="btn">Leer más</button></a>
+        </article>
+    </main>
+
+  <!-- SECTION FOOTER -->
+
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-section">Siguenos en nuestras redes</h2>
+        </div>
+
+        <div class="redes-sociales">
+            <img src="multimedia/facebook.png" alt="Logo facebook">
+            <img src="multimedia/instagram.png" alt="Logo instragram" >
+            <img src="multimedia/whatsapp.png" alt="Logo whatsapp" > 
+        </div>
+
+        <div class="contenedor">
+            <p class="copy"> © 2022 Leandro Rojas / Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+        <!-- SECTION SCRIPT -->
+
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+
+        })
+
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+    
+</body>
+</html>
