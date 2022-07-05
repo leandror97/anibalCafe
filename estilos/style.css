@@ -82,21 +82,45 @@ h1{
     font-size: 5em;
     color: rgb(211, 132, 62);
 }
-
-.hero .btn{
-    font-size: 1em ;
-    background: none;
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #222;
     color: white;
-    padding: 10px 20px;
-    border: 1px solid rgb(211, 132, 62);
-    border-radius: 30px;
-    margin-top: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
 
+.boton span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
 }
-.hero .btn:hover{
-    background-color:rgb(211, 132, 62) ;
-    color: #222;
-}
+
+.boton.uno::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 194, 132);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out;
+    }  
+    
+    .boton.uno:hover::after{
+        top: 0;
+    }
 
 
 /* SECTION FOOTER */
