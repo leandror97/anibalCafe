@@ -7,19 +7,18 @@
     <title>Anibal Coffeshop</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaQueries.css">
-    <link rel="stylesheet" href="estilos/bootstrap.min.css">
 </head>
 
 <body>
-
-    <!-- SECTION HEADER -->
-
+    <!-- Header -->
     <header>
         <nav class="navbar"
     >
             <div class="container-icon">
-                <a href="#"><img src="multimedia/logo.png" alt="logo" class="primary-icon"></a>
-                <h1>Anibal</h1>
+                <a href="index.html"><img src="multimedia/logo.png" alt="logo" class="primary-icon"></a>
+                <div class="escribiendo">
+                    <h1>Anibal</h1>
+                </div>
             </div>
 
             <ul class="nav-list" id="navi-list">
@@ -45,40 +44,45 @@
 
             </nav>
         </header>
+
+        <main class="hero">
+            <article class="info-content">
+                <h3>Coffeshop</h3>
+                <h2>Anibal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo laudantium adipisci magni corrupti accusantium at omnis impedit nam sequi necessitatibus consequatur rerum doloremque, quasi reprehenderit! Sapiente soluta fugiat odit.</p>
+                <a href="paginas/nosotros.html">
+                    <button class="boton cinco">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </div>
+                        <span>Leer mas</span>
+                    </button>
+                </a>
+            </article>
+        </main>
+
+        <footer>
+
+            <div class="contenedor">
+                <h2 class="titulo-section">Siguenos en nuestras redes</h2>
+            </div>
+    
+            <div class="redes-sociales">
+    
+                <img src="multimedia/facebook.png" alt="Logo facebook">
+                <img src="multimedia/instagram.png" alt="Logo instragram" >
+                <img src="multimedia/whatsapp.png" alt="Logo whatsapp" > 
+    
+            </div>
+    
+            <div class="contenedor">
+                <p class="copy"> © 2022 Leandro Rojas / Todos los derechos reservados</p>
+            </div>
+
+        </footer>
             
-    
-
-    <!-- SECTION MAIN -->
-
-    <main class="hero">
-        <article class="info-content">
-            <h3>Coffeshop</h3>
-            <h2>Anibal</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quo laudantium adipisci magni corrupti accusantium at omnis impedit nam sequi necessitatibus consequatur rerum doloremque, quasi reprehenderit! Sapiente soluta fugiat odit.</p>
-            <a href="paginas/nosotros.html"><button class="boton uno"><span>Leer mas</span></button></a>
-        </article>
-    </main>
-
-    
-
-  <!-- SECTION FOOTER -->
-
-    <footer>
-        
-
-        <div class="redes-sociales">
-            <img src="multimedia/facebook.png" alt="Logo facebook">
-            <img src="multimedia/instagram.png" alt="Logo instragram" >
-            <img src="multimedia/whatsapp.png" alt="Logo whatsapp" > 
-        </div>
-
-        <div class="contenedor">
-            <p class="copy"> © 2022 Leandro Rojas / Todos los derechos reservados</p>
-        </div>
-    </footer>
-
-        <!-- SECTION SCRIPT -->
-
     <script>
         const toggleButton = document.getElementById('toggle-button');
         const naviList = document.getElementById('navi-list');
@@ -89,7 +93,8 @@
         })
 
     </script>
-    <script src="js/bootstrap.min.js"></script>
+
+    
 
 
 
