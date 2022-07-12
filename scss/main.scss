@@ -1,0 +1,100 @@
+// PAGINA NOSOTROS
+.hero{
+    .info-nosotros{
+        grid-row: 3 / 6 ;
+        grid-column: 2 / 6 ;
+    }
+}
+
+// PAGINA CONTACTO
+
+.wrapper{
+    grid-column: 2 / 6;
+    grid-row: 1 / 6;  
+    margin-top: 40px;
+    .btn {
+        color: #ced4da;
+        border-color: #ced4da;
+        &:hover{
+            background-color: rgb(211, 132, 62);
+        }
+    }  
+
+}
+
+.map{
+    display: grid;
+    grid-column: 7 / 10;
+    grid-row: 3 / 6;
+    padding-bottom: 10px;
+    .titulo-mapa{
+    font-size: 20px;
+    color: white;
+    }
+    
+}
+
+// PAGINA NOSOTROS
+
+.carousel{
+    grid-row: 4 / 5;
+    grid-column: 8 / 9;
+    width: 250px;
+    height: 250px;
+    .carousel-indicators{
+        top: 320px;  
+    }
+    .carousel-control-next {
+        right: -40px;
+        top: 60px;
+    }
+    .carousel-control-prev {
+        left: -40px;
+        top: 60px;
+    }
+    .carousel-item{
+        border: 3px solid #ced4da;
+        border-radius: 5px;
+    }
+}
+
+// PAGINA TIENDA
+
+.hero2{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero2 .card{
+    color: white;
+    border:1px solid rgb(109, 107, 107);
+    background: #222;
+    .card-text{
+        font-size: 15px;
+    }
+    .list-group li{
+        font-size: 10px;
+        font: bold;
+        background-color: #222;
+        color: white;
+        text-align: center;
+    }
+    .card-body{
+        text-align: center;
+        a{
+            color: rgb(211, 132, 62);
+        &:hover{
+            color: white;
+        }
+        }
+    }
+    
+}
+
+
+
+    
+
+    

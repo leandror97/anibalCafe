@@ -1,0 +1,64 @@
+.hero .info-nosotros {
+  grid-row: 3 / 6;
+  grid-column: 2 / 6; }
+
+.wrapper {
+  grid-column: 2 / 6;
+  grid-row: 1 / 6;
+  margin-top: 40px; }
+  .wrapper .btn {
+    color: #ced4da;
+    border-color: #ced4da; }
+    .wrapper .btn:hover {
+      background-color: #d3843e; }
+
+.map {
+  display: grid;
+  grid-column: 7 / 10;
+  grid-row: 3 / 6;
+  padding-bottom: 10px; }
+  .map .titulo-mapa {
+    font-size: 20px;
+    color: white; }
+
+.carousel {
+  grid-row: 4 / 5;
+  grid-column: 8 / 9;
+  width: 250px;
+  height: 250px; }
+  .carousel .carousel-indicators {
+    top: 320px; }
+  .carousel .carousel-control-next {
+    right: -40px;
+    top: 60px; }
+  .carousel .carousel-control-prev {
+    left: -40px;
+    top: 60px; }
+  .carousel .carousel-item {
+    border: 3px solid #ced4da;
+    border-radius: 5px; }
+
+.hero2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.hero2 .card {
+  color: white;
+  border: 1px solid #6d6b6b;
+  background: #222; }
+  .hero2 .card .card-text {
+    font-size: 15px; }
+  .hero2 .card .list-group li {
+    font-size: 10px;
+    font: bold;
+    background-color: #222;
+    color: white;
+    text-align: center; }
+  .hero2 .card .card-body {
+    text-align: center; }
+    .hero2 .card .card-body a {
+      color: #d3843e; }
+      .hero2 .card .card-body a:hover {
+        color: white; }

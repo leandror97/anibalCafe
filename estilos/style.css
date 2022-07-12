@@ -192,9 +192,7 @@ h3{
     color: white;
 }
 
-.icono-tab{
-    
-}
+
 /* -------------SECTION FOOTER -----------------*/
 
 footer{
@@ -223,8 +221,7 @@ footer .redes-sociales{
 footer .redes-sociales img{
     width: 20px;
     height: 20px;
-    margin: 10px;
-   
+    margin: 10px; 
 }
 
 .redes-sociales{
@@ -239,66 +236,47 @@ footer .contenedor{
 
 /* ------------------PAGINA CONTACTO--------------- */
 
-.wrapper{
+/* .wrapper{
     grid-column: 2 / 6;
     grid-row: 1 / 6;  
     margin-top: 40px;    
-}
+} */
 
-.map{
+/* .map{
     display: grid;
     grid-column: 7 / 10;
     grid-row: 3 / 6;
     padding-bottom: 10px;
-  }
+}
 
-  .map .titulo-mapa{
+.map .titulo-mapa{
     font-size: 20px;
     color: white;
-  }
+} */
 
-  .carousel-item{
-    border: 3px solid #ced4da;
-    border-radius: 5px;
-  }
 
-.btn-outline-secondary {
+
+/* .btn {
     color: #ced4da;
     border-color: #ced4da;
 
 }
 
-.btn-outline-secondary:hover{
+.btn:hover{
     background-color: rgb(211, 132, 62);
 
-}
+} */
 
    /* ------------------ PAGINAS NOSOTROS--------------------- */
 
-.contenedor-nosotros{
-    grid-column: 6 / 10;
-    grid-row: 3 / 7;
-}
 
-.container-slider{
-    margin: auto;
-    background:rgba(0, 0, 0, 0.562);
-    width: 350px;
-    padding: 30px;
-    border-radius: 20px;
-    
-}
-  
-.hero .info-nosotros{
+
+/* .hero .info-nosotros{
 grid-row: 3 / 6 ;
 grid-column: 2 / 6 ;
-}
+} */
 
-.hero .btn-nosotros{
-display: none;
-}
-
-.carousel{
+/* .carousel{
     grid-row: 4 / 5;
     grid-column: 8 / 9;
     width: 250px;
@@ -308,9 +286,9 @@ display: none;
 .carousel-indicators{
     top: 320px;
 
-}
+} */
 
-.carousel-control-next {
+/* .carousel-control-next {
     right: -40px;
     top: 60px;
 }
@@ -319,7 +297,12 @@ display: none;
     left: -40px;
     top: 60px;
 
-}
+} */
+
+/* .carousel-item{
+    border: 3px solid #ced4da;
+    border-radius: 5px;
+} */
 
   /* -----------------------PAGINA TIENDA----------------- */
 .hero2{
@@ -330,7 +313,7 @@ display: none;
 }
 
 
-.card{
+/* .card{
     color: white;
     border:1px solid rgb(109, 107, 107);
     background: #222;
@@ -338,36 +321,27 @@ display: none;
 
 .card-text{
     font-size: 15px;
-}
+} */
 
 
-.list-group li{
+/* .list-group li{
     font-size: 10px;
     font: bold;
     background-color: #222;
     color: white;
     text-align: center;
-}
+} */
 
-.card-body{
+/* .card-body{
     text-align: center;
-}
+} */
 
-.card-body a{
+/* .card-body a{
     color: rgb(211, 132, 62);
 }
 
 .card-body a:hover{
     color: white;
-}
-
- 
-
-
-
-  
-
-
-
+} */
 
 
