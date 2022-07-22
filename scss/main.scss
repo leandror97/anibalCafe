@@ -93,6 +93,40 @@
     
 }
 
+$estilos: ( 
+        colorUno: #d3843e,
+        colorDos:  #ced4da,
+        colorTres: #222
+); 
+
+.hero2 .card .cardbody a{
+    color: map-get($estilos, colorUno );
+}
+
+.hero2 .card .list-group li{
+    background-color: map-get($estilos, colorTres );
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+
+.hero2{
+    @extend .hero;
+    background-color: white;
+}
+
+@mixin tamano($width, $height) {
+    height: $height;
+    width: $width;
+}
+ 
+.carousel{
+    @include tamano (250px, 250px)
+}
+
 
 
     

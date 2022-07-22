@@ -1,4 +1,4 @@
-.hero .info-nosotros {
+.hero .info-nosotros, .hero2 .info-nosotros {
   grid-row: 3 / 6;
   grid-column: 2 / 6; }
 
@@ -62,3 +62,22 @@
       color: #d3843e; }
       .hero2 .card .card-body a:hover {
         color: white; }
+
+.hero2 .card .cardbody a {
+  color: #d3843e; }
+
+.hero2 .card .list-group li {
+  background-color: #222; }
+
+.hero, .hero2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.hero2 {
+  background-color: white; }
+
+.carousel {
+  height: 250px;
+  width: 250px; }
