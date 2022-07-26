@@ -1,163 +1,199 @@
-@media all and (max-width: 480px) {
-    /*  PAGINA INICIO */
-    .navbar{
-        flex-direction: column;
-        position: relative;
 
-    }
-   
-
-    .menu{
-        display: block;
-        position: absolute;
-        right: 15px;
-        top: 15px;
-    }
-
-    .nav-list{
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        padding-top: 10px;
-        display: none;
-    }
-
-    .nav-list .list-item{
-        display: block;
-        padding: 10px;
-        border-top: 1px solid white;
-    }
-
-    .primary-icon{
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .active{
-        display: block;
-    }
-    
-    h1{
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-
-    .hero{
-        height: 165vh;
-    }
-
-    .hero .info-content{
-        grid-column: 2 / 4;
-        grid-row: 2 / 8
-
-    }
-
-    .hero .info-content {
-        grid-column: 2 / 3;
-        grid-row: 1 / 5;
-        font-size: 15px;
-        text-align: center;
-        padding: 40px;
-        
-
-    }
-
-    .boton{
-        display: none;
-    }
-    
-    .table td{
-        font-size: 15px;
-    }
-
-    .table{
-        grid-column: 2 / 4;
-        grid-row: 6 / 8;
-    }
-    /* PAGINA CONTACTO */
-    
-
-    .hero .wrapper{
-        grid-column: 2 / 10;
-        grid-row: 1 /5 ;
-        
-    }
-
-    .wrapper{
-        margin-top: 20px;
-    }
-
-
-    .comentario-contacto p{
-        margin-top: 20px;
-
-    }
-
-    .map{
-        grid-row: 6 / 8;
-        grid-column: 2 / 4;
-        margin-top: 20px;
-    }
-
-    .mapImg{
-        width: 250px;
-        height: 250px;
-        
-    }
-
-   /* PAGINA NOSOTROS */
-
-.hero .info-nosotros{
-    grid-column: 2 / 10 ;
-    grid-row: 1 / 4  ;
-    font-size: 5px;
-    margin-top: 20px;
-} 
-.hero .info-nosotros h3{
-    font-size: 15px;
+@media all and (max-width: 768px){
+    /* PAGINA INICIO */
+.table{
+    margin-left: 10px;
+    margin-top: 50px;
+    grid-column: 2/10;
+    grid-row: 6  / 8;
+    color: white;
 }
-.hero .info-nosotros p{
-    font-size: 15px;
+
+.table tr{
+    width: 40px;
 
 }
 
-.hero .container-slider{
-    align-items: center;
-
-}
-.container-slider{ 
-    margin: auto;
-    background:rgba(0, 0, 0, 0.562);
-    width: 150px;
-    padding: 15px;
-    border-radius: 20px;
-    
-}
-
-.contenedor-main{
-    grid-column: 2 / 4;
-
-}
-
-.carousel{
-    grid-row: 5 / 8;
-    grid-column: 4 / 8;
-}
-
-.hero .info-nosotros{
-    font-size: 15px;
+.hero .info-content {
+    grid-column: 2 / 10;
+    grid-row: 2/3;
+    margin-top: 50px;
     text-align: center;
 }
 
-  /*  PAGINA TIENDA */
-
-.hero2{
-    height: 300vh;
+.info-content p{
+    font-size: 25px;
 }
 
-.hero2 .tituloSecundario{
-    font-size: 50px;
+.hero{
+    height: 185vh;
+}
+
+.boton{
+    display: none;
+}
+
+ /* PAGINA NOSOTROS */
+
+.hero .info-nosotros {
+    grid-row: 2/4;
+    grid-column: 2/10;
+    text-align: center;
+
+}
+.carousel {
+    grid-row: 5/6;
+    grid-column: 5/8;
+}
+.wrapper {
+    grid-column: 2/ 10;
+    grid-row: 1 / 6;
+}
+.map {
+    grid-column: 3 / 9;
+    grid-row: 6 / 10;  }
+
+.titulo-mapa{
+    text-align: center;
+}
+.comentario-contacto p{
+    text-align: center;
+}
+
+}
+
+@media all and (max-width: 426px){
+
+ .table{
+     grid-column: 2 / 10;
+     grid-row: 5 / 8;
+     margin-top: 130px;
+     margin-left: 0px;
+ }
+
+ .table td{
+     font-size: 15px;
+     
+
+ }
+
+ .hero .info-content{
+     grid-column: 2 / 10;
+     grid-row: 1 / 5;
+     text-align: center;
+ }
+
+ .info-content h3{
+     font-size: 15px;
+ }
+
+ .info-content h2{
+     font-size: 40px;
+
+ }
+
+ .info-content p{
+     font-size: 20px;
+ }
+ .menu{
+     display: block;
+     position: absolute;
+     right: 15px;
+     top: 15px;
+ }
+
+ .nav-list{
+     list-style-type: none;
+     width: 100%;
+     text-align: center;
+     padding-top: 10px;
+     display: none;
+ }
+ .nav-list .list-item{
+     display: block;
+     padding: 10px;
+     border-top: 1px solid white;
+ }
+ .primary-icon{
+     margin-left: 10px;
+     margin-top: 10px;
+ }
+
+ .active{
+     display: block;
+ }
+ 
+ h1{
+     display: block;
+     text-align: center;
+     align-items: center;
+ }
+
+ /* PAGINA TIENDA */
+
+ .hero2{
+     height: 300vh;
+     flex-direction: column;
+ }
+
+ /* PAGINA NOSOTROS */
+
+ .info-nosotros h2{
+     font-size: 40px;
+ }
+ .info-nosotros p{
+     font-size: 20px;
+ }
+
+ .map{
+     display: none;
+ }
+}
+
+@media all and (max-width: 375px){
+
+ .hero{
+     height: 150vh;
+ }
+
+ .hero2{
+     height: 350vh;
+ }
+ .info-nosotros p {
+    font-size: 20px;
+}
+
+}
+
+@media all and (max-width: 320px){
+
+ .hero{
+     height: 180vh;
+ }
+
+ .hero2{
+     height: 300vh;
+ }
+
+ .table td{
+    font-size: 12px;
+}
+
+.info-content h3{
+    font-size: 10px;
+}
+
+.info-content h2{
+    font-size: 40px;
+
+}
+
+.info-content p{
+    font-size: 18px;
+}
+
+.info-nosotros p {
+    font-size: 20px;
 }
 }
 
