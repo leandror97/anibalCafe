@@ -1,6 +1,33 @@
+@media all and (max-width: 1024px){
+   
+    .table{
+        height: 500px;
+    }
 
-@media all and (max-width: 768px){
+    .mapImg{
+        height: 350px;
+        width: 350px;
+    }
+.heroVariedades{
+    height: 150vh;
+}
+
+.hero{
+    height: 140vh;
+}
+
+.heroNosotros{
+    height: 100vh;
+}
+.heroContactos{
+    height: 100vh;
+}
+}
+
+
+@media all and (max-width: 769px){
     /* PAGINA INICIO */
+
 .table{
     margin-left: 10px;
     margin-top: 50px;
@@ -26,11 +53,27 @@
 }
 
 .hero{
-    height: 185vh;
+    height: 200vh;
 }
 
-.boton{
+.menu{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.nav-list{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
     display: none;
+}
+.nav-list .list-item{
+    display: block;
+    padding: 10px;
+    border-top: 1px solid white;
 }
 
  /* PAGINA NOSOTROS */
@@ -50,7 +93,7 @@
     grid-row: 1 / 6;
 }
 .map {
-    grid-column: 3 / 9;
+    grid-column: 4 / 8;
     grid-row: 6 / 10;  }
 
 .titulo-mapa{
@@ -58,6 +101,21 @@
 }
 .comentario-contacto p{
     text-align: center;
+}
+
+.heroVariedades{
+    height: 200vh;
+}
+
+.active{
+    display: block;
+}
+
+.heroNosotros{
+    height: 150vh;
+}
+.heroContactos{
+    height: 160vh;
 }
 
 }
@@ -148,12 +206,20 @@
  .map{
      display: none;
  }
+ .heroVariedades{
+    height: 270vh;
 }
 
-@media all and (max-width: 375px){
+.heroContactos{
+    height: 100vh;
+}
+
+}
+
+@media all and (max-width: 376px){
 
  .hero{
-     height: 150vh;
+     height: 280vh;
  }
 
  .hero2{
@@ -162,14 +228,30 @@
  .info-nosotros p {
     font-size: 20px;
 }
-
+.heroVariedades{
+    height: 350vh;
 }
 
-@media all and (max-width: 320px){
+.heroContactos{
+    height: 100vh;
+}
+
+.heroNosotros{
+    height: 170vh;
+}
+}
+
+@media all and (max-width: 321px){
+
+
 
  .hero{
-     height: 180vh;
+     height: 220vh;
  }
+
+ .heroContactos{
+    height: 100vh;
+}
 
  .hero2{
      height: 300vh;
@@ -192,17 +274,26 @@
     font-size: 18px;
 }
 
-.info-nosotros p {
-    font-size: 20px;
+
+.info-content{
+    height: 400px;
 }
+
+.table{
+    grid-row: 7 / 8;
+    height: 400px;
 }
 
+.heroVariedades{
+    height: 400vh;
+}
 
+.heroNosotros{
+    height: 160vh;
+}
 
-
-
-
-
-
-
-
+.carousel {
+    grid-row: 6 / 7;
+    grid-column: 5/8;
+}
+ }
